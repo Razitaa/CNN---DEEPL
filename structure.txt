@@ -1,0 +1,168 @@
+Folder PATH listing for volume Data
+Volume serial number is 420E-E5F9
+D:.
+|   .gitignore
+|   LICENSE
+|   QUICKSTART.md
+|   README.md
+|   requirements.txt
+|   structure.txt
+|   
++---app
+|   \---flask_meteo
+|           main.py
+|           quantile_ultimate_model.keras
+|           quantile_ultimate_scalers.pkl
+|           
++---data
+|   +---processed
+|   \---raw
+|           climate_data.csv
+|           improved_results.csv
+|           province_detail.csv
+|           results_2020_2025.csv
+|           solar_irradiance_complete_dataset.csv
+|           station_detail.csv
+|           ultimate_results.csv
+|           weather_data_2020_2025.csv
+|           weather_data_indonesia.csv
+|           
++---docs
+|       API_DOCUMENTATION.md
+|       DATA_GUIDE.md
+|       MODEL_ARCHITECTURE.md
+|       PROJECT_STRUCTURE.md
+|       REORGANIZATION_SUMMARY.md
+|       
++---models
+|   +---checkpoints
+|   |       best_model_epoch_001_valloss_0.8826.keras
+|   |       best_model_epoch_002_valloss_0.7653.keras
+|   |       best_model_epoch_003_valloss_0.6738.keras
+|   |       best_model_epoch_004_valloss_0.5933.keras
+|   |       best_model_epoch_005_valloss_0.5422.keras
+|   |       best_model_epoch_006_valloss_0.4939.keras
+|   |       best_model_epoch_007_valloss_0.4588.keras
+|   |       best_model_epoch_008_valloss_0.4300.keras
+|   |       best_model_epoch_009_valloss_0.4113.keras
+|   |       best_model_epoch_010_valloss_0.3881.keras
+|   |       best_model_epoch_011_valloss_0.3595.keras
+|   |       best_model_epoch_012_valloss_0.3481.keras
+|   |       best_model_epoch_013_valloss_0.3239.keras
+|   |       best_model_epoch_014_valloss_0.3122.keras
+|   |       best_model_epoch_015_valloss_0.3025.keras
+|   |       best_model_epoch_016_valloss_0.2961.keras
+|   |       best_model_epoch_017_valloss_0.2827.keras
+|   |       best_model_epoch_018_valloss_0.2733.keras
+|   |       best_model_epoch_019_valloss_0.2648.keras
+|   |       best_model_epoch_020_valloss_0.2585.keras
+|   |       best_model_epoch_021_valloss_0.2526.keras
+|   |       best_model_epoch_022_valloss_0.2485.keras
+|   |       best_model_epoch_023_valloss_0.2416.keras
+|   |       best_model_epoch_024_valloss_0.2347.keras
+|   |       best_model_epoch_026_valloss_0.2271.keras
+|   |       best_model_epoch_027_valloss_0.2266.keras
+|   |       best_model_epoch_028_valloss_0.2230.keras
+|   |       best_model_epoch_029_valloss_0.2226.keras
+|   |       best_model_epoch_030_valloss_0.2206.keras
+|   |       best_model_epoch_031_valloss_0.2171.keras
+|   |       best_model_epoch_033_valloss_0.2123.keras
+|   |       best_model_epoch_034_valloss_0.2080.keras
+|   |       best_model_epoch_037_valloss_0.2044.keras
+|   |       best_model_epoch_039_valloss_0.2027.keras
+|   |       best_model_epoch_041_valloss_0.1995.keras
+|   |       best_model_epoch_052_valloss_0.1965.keras
+|   |       best_model_epoch_056_valloss_0.1941.keras
+|   |       best_model_epoch_060_valloss_0.1937.keras
+|   |       best_model_epoch_062_valloss_0.1916.keras
+|   |       
+|   +---checkpoints_quantile
+|   |       best_quantile.keras
+|   |       
+|   +---checkpoints_transformer
+|   |       best_transformer.keras
+|   |       
+|   +---ensemble_models
+|   |       best_bilstm.keras
+|   |       best_cnn_lstm.keras
+|   |       best_transformer.keras
+|   |       bilstm_final.keras
+|   |       cnn_lstm_final.keras
+|   |       transformer_final.keras
+|   |       
+|   +---ensemble_models_final_v32
+|   |       best_bilstm.keras
+|   |       best_cnn_lstm.keras
+|   |       best_transformer.keras
+|   |       bilstm_final.keras
+|   |       cnn_lstm_final.keras
+|   |       transformer_final.keras
+|   |       
+|   +---ensemble_models_improved
+|   |       best_bilstm.keras
+|   |       best_cnn_lstm.keras
+|   |       best_transformer.keras
+|   |       bilstm_final.keras
+|   |       cnn_lstm_final.keras
+|   |       transformer_final.keras
+|   |       
+|   +---realmodelfixed
+|   |       quantile_ultimate_model.keras
+|   |       quantile_ultimate_scalers.pkl
+|   |       
+|   +---scalers
+|   |       ensemble_scalers.pkl
+|   |       ensemble_scalers_final_v32.pkl
+|   |       ensemble_scalers_improved.pkl
+|   |       final_temperature_scalers.pkl
+|   |       improved_scalers.pkl
+|   |       improved_temperature_scalers.pkl
+|   |       pure_transformer_scalers.pkl
+|   |       quantile_ultimate_scalers.pkl
+|   |       scalers_2020_2025.pkl
+|   |       temperature_scalers.pkl
+|   |       ultimate_scalers.pkl
+|   |       variance_aware_temperature_scalers.pkl
+|   |       
+|   \---trained_models
+|           best_improved_transformer.keras
+|           best_model_01.keras
+|           best_model_2020_2025.keras
+|           final_temperature_model.keras
+|           improved_temperature_model.keras
+|           pure_transformer_model.keras
+|           quantile_ultimate_model.keras
+|           temperature_model_7days.keras
+|           ultimate_best_model.keras
+|           variance_aware_temperature_model.keras
+|           
++---notebooks
+|       featureselection.ipynb
+|       mergedata.ipynb
+|       predv2.ipynb
+|       processing.ipynb
+|       
++---results
+|   +---predictions
+|   \---visualizations
+|           ensemble_analysis.png
+|           ensemble_analysis_final_v32.png
+|           ensemble_analysis_improved.png
+|           final_comprehensive_analysis.png
+|           improved_predictions_samples.png
+|           improved_training.png
+|           prediction_analysis.png
+|           quantile_ultimate_analysis.png
+|           scatter_actual_vs_predicted.png
+|           temperature_predictions_samples.png
+|           temperature_training.png
+|           transformer_analysis.png
+|           ultimate_performance.png
+|           ultimate_training.png
+|           variance_aware_predictions.png
+|           variance_aware_scatter.png
+|           variance_aware_training.png
+|           
+\---scripts
+        predict_temperature.py
+        

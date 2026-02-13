@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model Files (large files)
+*.h5
+*.hdf5
+# *.keras  # Uncomment if you don't want to track keras files
+
+# Data Files (optional, uncomment if data is too large)
+# *.csv
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Pickle Files
+# *.pkl  # Uncomment if you don't want to track scaler files
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Results (optional)
+# results/predictions/*.csv
+# results/visualizations/*.png
+
+# System Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
